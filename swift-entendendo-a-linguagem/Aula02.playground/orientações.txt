@@ -1,0 +1,67 @@
+>  é maior do que outro;
+>= "maior ou igual que";
+< "menor que";
+<= "menor ou igual que";
+== é igual ;
+!= diferença;
+&& que significa and ou "E" em português;
+|| que significa or ou "OU" em português;
+! que significa not ou, em português, a negação de um booleano;
+!   teremos o operador de negação representado pelo sinal de exclamação, antes da variável booleana;
+
+
+Condicionais:
+
+if, else if e o else.
+
+if que significa "se" em inglês (verificaremos se a condição é verdadeira ou falsa);
+
+else "se não";
+
+else if Também poderemos ter uma alinhamento de condições, ou seja, 
+poderemos fazer uma verificação if e adicionar uma segunda condição;
+
+
+Operador ternário e é representado da seguinte forma:
+
+var idade = 20
+idade >= 18 ? print("Maior de idade") : print("Não é maior de idade")
+
+esse comando utiliza de caracteres especiais como o ponto de interrogação e dois pontos. 
+Se a condição for verdadeira, a primeira expressão será executada 
+(que vem antes dos dois pontos). Caso for falsa, a segunda expressão será executada.
+
+
+
+Intervalo de valores e condicionais com switch:
+
+intervalo de valores - Intervalo fechado e Intervalo semi-aberto
+
+var intervaloFechado = 10...20 - intervaloFechado que representará 
+valores de dez até vinte escrevendo 10...20.
+
+var intervaloSemiAberto = 10..<20 - o número 20 não está incluso no 
+intervalo, ou seja, vai de dez a dezenove.
+
+Swift, conseguiremos fazer verificações:
+
+casos - palavra-chave case
+(dois pontos) : para executarmos algo caso o case seja verdadeiro, 
+como imprimir a mensagem no console "Número está entre 0 e 10".
+
+var intervaloFechado = 10...20
+var intervaloSemiAberto = 10..<20
+
+var numero = 15
+
+switch numero {
+case 0...10: print("Número está entre 0 e 10")
+}
+
+default: ( incluir para dizer o que vai fazer depois)
+
+break de "quebrar" ou "parar".
+
+
+
+

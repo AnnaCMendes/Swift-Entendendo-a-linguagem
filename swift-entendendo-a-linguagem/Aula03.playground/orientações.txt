@@ -1,0 +1,52 @@
+Laços de repetição em Swift
+No Swift, podemos representar laços de operação por três comandos diferentes:
+
+    For
+    While
+    Repeat while, que em outras linguagens pode ser conhecido como do... while
+
+Loop com For:
+
+    Vamos introduzir esse conceito com o laço de repetição for, que utiliza o intervalo de valores
+
+    variável i para manter a contagem das vezes
+
+
+Para comentar o código nessa linguagem, usamos /* no começo e */ no fim.
+
+
+Loop com while:
+
+ laço de repetição while, que significa "enquanto".
+
+Loop com repeat while:
+
+    repeat while funciona da seguinte forma: escrevemos o repeat, 
+    abrimos o bloco de código para inserir a execução que se repetirá 
+    (a impressão da mensagem) e, no final, escrevemos while para escrever 
+    a condição de repetição (a mesma de antes)
+
+Qual a diferença entre while e repeat while?
+
+        A diferença entre os dois métodos é que o while 
+        realiza primeiro a verificação da condição; no caso, 
+        count ser menor ou igual a 10. Se o count fosse igual a 11, 
+        ele nunca entraria nessa condição.
+
+Quando usar for, while e repeat while?
+
+    Não existe uma resposta muito certa para essa pergunta.
+
+    Mas, muitas vezes utilizamos o for quando sabemos exatamente 
+    quantas vezes executaremos um bloco de código. Esse é o caso 
+    do nosso for. Sabemos que repetiremos a impressão da mensagem dez 
+    vezes, porque estamos utilizando o intervalo de valores.
+
+    No while e repeat while, geralmente não sabemos exatamente quantas 
+    vezes o código será executado (com exceção do nosso exemplo).
+
+Count e Break:
+
+    count for 5, você dá um continue, força a próxima iteração do loop
+    break sai do laço de repetição
+

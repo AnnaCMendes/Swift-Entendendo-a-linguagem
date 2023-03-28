@@ -1,0 +1,1 @@
+Dicionário é uma coleção de valores que possui uma chave, e essa chave remete a um valor.

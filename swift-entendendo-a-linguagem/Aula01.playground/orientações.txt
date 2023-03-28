@@ -1,0 +1,29 @@
+Para criar uma variável, utilizamos a palavra-chave var seguida do nome dessa variável. 
+
+vamos exibir no console, usando o print()
+
+Para escrever a frase na resposta + Variavel, precisamos fazer uma interpolação:
+print("O meu nome é \(nome)")
+
+Na linguagem Swift, para criar uma constante, usamos a palavra-chave let (em vez de var):
+constante é variavél que não pode ser alterada.
+
+Variavéis boleana no swift se declara :Bool
+Variáveis e tipos de dados em Swift: Character, Int, Double, String, Bool
+
+Operações aritméticas simples
+
+10 + 5 (Soma)
+10 - 5 (Subtrção)
+10 * 5 (multiplicar)
+10 / 5 (dividir)
+Double(5) / 2 (dividir números decimais)
+10 % 4 (é resto da divisão de um número inteiro por outro número inteiro.)
+
+Concatenação de strings
+
+var nome = "Anna"
+var sobrenome = "Mendes"
+print(nome + sobrenome)
+print(nome + " " + sobrenome) - atribuí espaço na resposta
+print("Meu nome é \(nome) \(sobrenome)")

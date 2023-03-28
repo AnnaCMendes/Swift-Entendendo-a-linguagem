@@ -1,0 +1,18 @@
+Conceito de função:
+
+    Função é um bloco de código que executa alguma tarefa. 
+    É extremamente importante para modularização, organização e reutilização do seu código.
+
+Nulo no swift é = a NIL.
+
+
+if let - Optional Binding
+
+guard let  - desembrulhar uma opcional - caso tenha um valor nulo, ele saira da 
+função e nada seria exibido na tela, pois utiliza else {return}
+
+
+Optional chaining:
+
+O termo "chaining" em português 
+significa encadeamento, a ideia é encadear as operações. 
